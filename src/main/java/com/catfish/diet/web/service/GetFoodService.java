@@ -19,7 +19,7 @@ public class GetFoodService {
         urlBuilder.append("/" + "I2790");
         urlBuilder.append("/" + "json"); /*응답데이터 형식(xml/json) Default: xml*/
         urlBuilder.append("/" +  "1");
-        urlBuilder.append("/" +  "10");
+        urlBuilder.append("/" +  "20");
         urlBuilder.append("/" +  "DESC_KOR=" +keyword );
 //        urlBuilder.append("&" + URLEncoder.encode("desc_kor","UTF-8") + "=" + URLEncoder.encode(keyword, "UTF-8")); /*식품이름*/
 //        urlBuilder.append("&" + URLEncoder.encode("pageNo","UTF-8") + "=" + URLEncoder.encode("1", "UTF-8")); /*페이지번호*/

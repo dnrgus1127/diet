@@ -3,9 +3,9 @@ const theme = {
 }
 
 export const defaultTheme = {
-    primary : '#645CAA',
-    secondary : '#A084CA',
-    tertiary : '#BFACE0',
-    quaternary : '#EBC7E8',
+    primary : '#F96666',
+    secondary : '#674747',
+    tertiary : '#829460',
+    quaternary : '#EEEEEE',
     ...theme
 }

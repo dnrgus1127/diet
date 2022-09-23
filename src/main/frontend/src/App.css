@@ -1,11 +1,71 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'RixInooAriDuriR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HBIOS-SYS';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/HBIOS-SYS.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BMEULJIRO';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SEBANG_Gothic_Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'SEBANG_Gothic_Bold';
+}
 
 a {
   text-decoration: none;
-  color : black;
+  color: black;
 }
 
 
-a,ul,li,h3,h1,h2,div,p {
-  padding : 0;
-  margin : 0;
+a,
+ul,
+li,
+h3,
+h1,
+h2,
+div,
+p,
+body,
+h4,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+p {
+  /* font-family: 'HBIOS-SYS'; */
+}
+
+.border-right {
+  border-right : 1px solid grey;
+}
+
+.fixed {
+  position: fixed;
 }
